@@ -52,10 +52,6 @@ Navigate to DynamoDB in AWS Management Console and click on create table
 - Choose the method name as POST, integration type as lambda function and choose the lambda function by placing the correcting region   and create the method
 - Follow the same process for GET method as well.
 
-
-<img width="1440" alt="PostResource" src="https://github.com/user-attachments/assets/2dca1b14-41f6-4269-857d-92e7f6d1ee2c">
-
-
 <img width="1440" alt="GetResource" src="https://github.com/user-attachments/assets/e18c2ca5-81a9-46b2-ac86-844073054c6b">
 
 
@@ -111,6 +107,7 @@ Testing the application using the below curl command
     
     <img width="836" alt="Delete" src="https://github.com/user-attachments/assets/d92ed003-e99c-4f24-a709-f63b8b015a78">
 
+  - Record Deleted from the table
 
     <img width="1440" alt="FinalTable" src="https://github.com/user-attachments/assets/a21913ea-e669-4e59-aa1f-2c6632893276">
 
