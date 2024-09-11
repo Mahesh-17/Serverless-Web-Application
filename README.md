@@ -1,4 +1,4 @@
-# CMPE 272 Assignment - 2 : 
+# CMPE 272 - Assignment 2 : 
 
 Building a serverless web application using AWS Lambda and DynamoDB and to get familiarity with CRUD operations on cloud.
 
@@ -54,7 +54,8 @@ Navigate to DynamoDB in AWS Management Console and click on create table
 
 <img width="1440" alt="GetResource" src="https://github.com/user-attachments/assets/e18c2ca5-81a9-46b2-ac86-844073054c6b">
 
-
+- Screenshot of API Gateway once the methods were created :
+  
 <img width="1440" alt="ApiGateway" src="https://github.com/user-attachments/assets/39b1375b-eb26-43e6-91d3-13983372c45b">
 
 
@@ -73,7 +74,7 @@ Testing the application using the below curl command
             curl -X POST \
   https://<your-api-id>.execute-api.<region>.amazonaws.com/dev/students \
   -H 'Content-Type: application/json' \
-  -d '{"action": "create", "student_id": "123", "name": "John Do", "course": "Enterprise Software"}'
+  -d '{"action": "create", "student_id": "123", "name": "John Do", "course": "Enterprise Software Platforms"}'
 
   <img width="835" alt="Create" src="https://github.com/user-attachments/assets/bfac4cb7-fceb-4353-a8e3-c49073d93f8d">
   
