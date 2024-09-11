@@ -122,6 +122,12 @@ Testing the application using the below curl command
   <img width="840" alt="Read" src="https://github.com/user-attachments/assets/ba181710-cb53-4597-88fa-2ddc85b2132c">
 
 
+  ## Reflection - Challenges I faced & What I learnt :
+
+  - Understanding serverless architecture is essential for modern cloud computing, with AWS Lambda functions leading this shift. By learning to develop and deploy Lambda functions, developers can build scalable, event-driven applications without the need for server management. 
+  - This serverless model pairs effectively with NoSQL databases like Amazon DynamoDB, which features a flexible key-value data model. Proficiency in DynamoDB's query syntax, including operations such as put_item and get_item, is crucial for effective data management.
+  - To turn Lambda functions into RESTful APIs, configuring Amazon API Gateway is a vital skill. Additionally, using AWS SDKs like boto3 facilitates smooth interaction with DynamoDB within Lambda functions, creating a robust, serverless backend system.
+
     
 ## This README.md file provides clear overview on how to build and test the serverless application using AWS on cloud
 
