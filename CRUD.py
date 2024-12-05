@@ -113,3 +113,4 @@ def handle_updateStudent(event):
         'statusCode': 200,
         'body': json.dumps('Student record has been successfully updated.')
     }
+    
